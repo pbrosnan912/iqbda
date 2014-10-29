@@ -1,0 +1,51 @@
+ body {
+  background-color: rgb(0,136,0);
+  margin: 0;
+  padding: 0;
+}
+ #page-title h1 {
+        color: red;
+      }
+#page-wrapper {
+  width:960px;
+  background-color: white;
+  margin: 0 auto; /* tb lr */
+}
+ #page-header, #conent, #navbar {
+  padding: 0 1em;
+}
+  #page-header img {
+    padding-top: 1em;
+    vertical-align: middle;
+}
+  #page-header h1 {
+  font: bold italic 3em "Georgia", "Times",serif;
+  display: inline-block;
+  margin:0;
+  vertical-align: middle;
+}
+  #page-header h2 {
+  font: bold italic 2em "Georgia", "Times",serif;
+}
+  #navbar {
+  background-color: #333;
+}
+  #navbar ul {
+  padding:0;
+}
+  #navbar ul li {
+  display: inline-block;
+}
+  #navbar a {
+  color:#CFC;
+  text-decoration: none;
+  padding: 0.25em;
+  display: inline-block;
+}
+  #navbar a:hover {
+  background-color: #666;
+  tect-shadow: 2px 2px #333;
+}
+  #page-title h1 {
+  font: bold 1.8em "Georgia", "Times",serif;
+}
